@@ -223,7 +223,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
               child: Stepper(
                 currentStep: currentStep,
                 controlsBuilder: (context, details) {
-                  if (user.type == "1") {
+                  if (user.type == "admin") {
                     return CustomButton(
                       text: 'Done',
                       onTap: () => changeOrderStatus(details.currentStep),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-String uri = 'http://brave-necklace-colt.cyclic.cloud:3000';
-// String uri = 'http://192.168.43.38:3000';
+// String uri = 'https://amazon1-fgsy.onrender.com';
+String uri = 'http://192.168.43.38:3000';
 
 // String uri = 'http://localhost:3000';
 
